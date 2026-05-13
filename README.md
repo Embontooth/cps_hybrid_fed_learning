@@ -13,6 +13,7 @@ Install the Python dependencies listed in [requirements.txt](requirements.txt):
 - pandas
 - scikit-learn
 - torch
+- matplotlib
 
 ## Setup
 
@@ -21,6 +22,8 @@ python -m venv .venv
 .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
+
+The plotting and comparison scripts require `matplotlib`, which is included in the dependency file.
 
 The scripts expect a cleaned dataset named [cicids2017_cleaned.csv](cicids2017_cleaned.csv) in the
 repository root.
